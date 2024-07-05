@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Narawish Kophimai's Resume</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="styles.css" rel="stylesheet">
+    
+</head>
+<body>
+    <!-- Hero Section-->
+    <section class="introduction">
+        <div class="container hero text-center">
+            <h1 class="pt-5 greeting ">Hello, I'm Narawish Kophimai</h1>
+            <img src="./components/studentphoto.jpeg" alt="profile-img" class="profile-img my-2">
+            <h2 class="pt-2 pb-3">A guy who is pursuing to become a full-stack web developer</h2>
+        </div>
+    </section>
+
+    <!-- Resume -->
+    <section class="resume py-5">
+        <div class="container col-12 col-xxl-8">
+            <div class="education text-center">
+                <h3 class="my-3"><em>Educations</em></h3>
+                <div class="row row-cols-3 g-2 justify-content-around">
+                    <div class="col-lg-3 col-12">
+                        <h5>Master of Industrial Engineering</h5>
+                            <p>Khon Kaen University, Khonkaen</p>
+                    </div>
+                    <div class="col-lg-3 col-12">
+                        <h5>Bachelor of Logistics Engineering</h5>
+                        <p>1st-Honour, GPAX: 3.89 / 4.00</p>
+                        <p>Khon Kaen University, Khonkaen</p>
+                    </div> 
+                    <div class="col-lg-3 col-12">
+                        <h5>Mini-English Program for Mathematics and Science Talented Students</h5>
+                            <p>Satreesiriket School, Sisaket</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Project -->
+    <section class="project py-5">
+        <div class="container">
+            <h3 class="my-3 text-center"><em>Projects</em></h3>
+            <div class="container col-8 text-center">
+                        <a href="https://github.com/Narawish/stock-data-web-app" target="_blank" class="icon-link">
+                            Stock price prediction web-application using Streamlit 
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                        </a>
+                        <p class="py-2">"By entering the stock's name, starting and ending date, the statistics will be shown. Moreover, 100 and 200 moving average line will also be computed and shown in the plots."</p>
+
+                <div id="carouselExampleCaptions" class="carousel carousel-dark slide mt-4" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="5000">
+                            <img src="./components/stock-web-app/stock-input.png" class="d-block w-100 carousel-img" alt="input">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="5000">
+                            <img src="./components/stock-web-app/descriptive.png" class="d-block w-100 carousel-img" alt="descriptive">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="5000">
+                            <img src="./components/stock-web-app/closing.png" class="d-block w-100 carousel-img" alt="closing">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="5000">
+                            <img src="./components/stock-web-app/100ma.png" class="d-block w-100 carousel-img" alt="100ma">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="5000">
+                            <img src="./components/stock-web-app/200ma.png" class="d-block w-100 carousel-img" alt="200ma">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- Contact -->
+    <section class="contract py-5">
+        <h3 class="my-3 text-center"><em>Contract</em></h3>
+        <div class="container col-8">
+            <div class="row row-cols-4 g-2 justify-content-around">
+                <div class="col-xxl-3 col-md-6 col-12">
+                    <a href="https://github.com/Narawish" target="_blank" class="icon-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                        Narawish
+                    </a>
+                </div>
+                <div class="col-xxl-3 col-md-6 col-12">
+                    <a href="mailto:narawish.kop@gmail.com" target="_blank" class="icon-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z"/></svg>
+                        narawish.kop@gmail.com
+                    </a>
+                </div>
+                <div class="col-xxl-3 col-md-6 col-12">
+                    <a href="https://www.linkedin.com/in/narawish-k/" target="_blank" class="icon-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                        Narawish Kophimai
+                    </a>
+                </div>
+                <div class="col-xxl-3 col-md-6 col-12">
+                    <a href="tel:+66880485660" class="icon-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20 22.621l-3.521-6.795c-.008.004-1.974.97-2.064 1.011-2.24 1.086-6.799-7.82-4.609-8.994l2.083-1.026-3.493-6.817-2.106 1.039c-7.202 3.755 4.233 25.982 11.6 22.615.121-.055 2.102-1.029 2.11-1.033z"/></svg>
+                        +66 88 048 5660
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
